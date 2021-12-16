@@ -7,7 +7,7 @@ import Map from "./Map";
 import './App.css';
 import Table from "./Table";
 import { sortData, prettyPrintStats } from "./util";
-//import LineGraph from "./LineGraph";
+import LineGraph from "./LineGraph";
 import "leaflet/dist/leaflet.css";
 
 
@@ -154,7 +154,7 @@ useEffect(() =>{
           <h3>Live Case by Country</h3>
           <Table countries={tableData} />
           <h3>Worldwide new cases</h3>
-          {/*<LineGraph casesType="cases"/>*/} /{/**Couldn't get Linegraph to work! */}
+          <LineGraph casesType="cases"/>
         </CardContent>
         
       </Card>
