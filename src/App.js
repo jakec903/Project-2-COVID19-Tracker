@@ -155,6 +155,8 @@ useEffect(() =>{
           <Table countries={tableData} />
           <h3>Worldwide new cases</h3>
           <LineGraph casesType="cases"/>
+          <h3>Worldwide Daily Deaths</h3>
+          <LineGraph casesType="deaths"/>
         </CardContent>
         
       </Card>
